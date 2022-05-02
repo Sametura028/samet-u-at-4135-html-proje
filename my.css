@@ -1,0 +1,46 @@
+#b1{
+           
+    color: yellow;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+       nav {
+float: left;
+width: 20%;
+height: 600px; 
+background: black; 
+padding: 20px;border: 1px solid white;  
+}
+
+header {
+
+background-color: black;
+padding: 5%;
+text-align: center;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+article {
+    width: 100%;
+    height: auto;
+  }
+  article {
+    float: right;
+    padding: 20px;
+    width: 74.4%;
+    background-color: #f1f1f1;
+    height: 600px;
+  }
